@@ -4,7 +4,9 @@
   "type": "module",
   "keywords": [],
   "scripts": {
-    "build": "tsc --noEmit"
+    "build": "tsc --noEmit",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "Brendan McGuire <brendan@bren.app>",
   "description": "SQL query builder constructed from typescript types.",
