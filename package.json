@@ -1,12 +1,11 @@
 {
   "name": "tquery",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "type": "module",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "Brendan McGuire <brendan@bren.app>",
+  "description": "SQL query builder constructed from typescript types.",
+  "devDependencies": {
+    "prettier": "^3.4.2"
+  }
 }
